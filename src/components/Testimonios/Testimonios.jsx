@@ -1,15 +1,16 @@
 import React from 'react'
 import { Container, Row, Col, Card, Carousel } from 'react-bootstrap';
+import './Testimonios.css'
 
 
 const Testimonios = () => {
   return (
-    <Container className="py-5">
+    <Container className="py-5" >
       <h2 className="text-center mb-3">Testimonios</h2>
       <h4 className="text-center mb-5">Lo que dicen nuestros clientes</h4>
       <Row>
         <Col md={4}>
-          <Card className="mx-auto">
+          <Card className="mx-auto card-estilada" >
             <Card.Body>
               <Card.Title>Juan Pérez</Card.Title>
               <Card.Text>
@@ -19,7 +20,7 @@ const Testimonios = () => {
           </Card>
         </Col>
         <Col md={4}>
-          <Card className="mx-auto">
+          <Card className="mx-auto card-estilada" >
             <Card.Body>
               <Card.Title>María Rodríguez</Card.Title>
               <Card.Text>
@@ -29,7 +30,7 @@ const Testimonios = () => {
           </Card>
         </Col>
         <Col md={4}>
-          <Card className="mx-auto">
+          <Card className="mx-auto card-estilada" >
             <Card.Body>
               <Card.Title>Carlos Gómez</Card.Title>
               <Card.Text>

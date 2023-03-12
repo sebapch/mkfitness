@@ -10,16 +10,18 @@ const Main = () => {
         <Row>
             <Col style={{display: 'flex',alignItems: 'center'}}>
                 <div>
-                    <label style={{color: 'white'}}>
+                    <label style={{color: 'white', marginBottom: '3rem', fontSize: '30px'}}>
                     Soy personal trainer certificado, preparador físico y quiero ayudarte a tener el conocimiento necesario para que veas resultados por siempre.
-                     Llevo más de 10 años en el mundo deportivo estudiando y promoviendo el fitness con base en ciencia,
-                      por eso creé MKFitness un lugar donde te guiaré en este camino tan lindo donde cambiarás tu mindset para siempre 💪🏼
+                      💪🏼
                     </label>
-                    <Button> Contactanos </Button>
+                    <div style={{display: 'flex',justifyContent: 'center'}}>
+                        
+                    <Button variant="outline-primary"> Contactanos </Button>
+                    </div>
                 </div>
             </Col>
             <Col>
-                <div>
+                <div style={{display: 'flex', justifyContent: 'center'}}>
                     <img src='https://mkonlinefitness.files.wordpress.com/2022/07/img_8827.jpg?w=768' alt='' style={{maxHeight:'50vh'}}/>
                 </div>
             </Col>
