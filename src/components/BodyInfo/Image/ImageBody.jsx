@@ -7,11 +7,13 @@ const ImageBody = () => {
     <Container>
         <Row>
             <Col>
-            <img src='https://mkonlinefitness.files.wordpress.com/2022/07/img_8827.jpg?w=768' alt='' style={{maxWidth:'30vh',  marginTop: '1rem', padding: '1.5rem'}}/>
-
-            <img src='https://mkonlinefitness.files.wordpress.com/2022/07/img_8827.jpg?w=768' alt='' style={{maxWidth:'30vh', marginTop: '6rem', padding: '1.5rem'}}/>
-
+            <img src='https://mkonlinefitness.files.wordpress.com/2022/07/img_8827.jpg?w=768' alt='' className='imageBody' style={{marginTop: '2rem'}}/>
             </Col>
+            <Col>
+            <img src='https://mkonlinefitness.files.wordpress.com/2022/07/img_8827.jpg?w=768' alt='' className='imageBody' style={{marginTop: '5rem'}}/>
+            </Col>
+
+           
         </Row>
     </Container>
   )
