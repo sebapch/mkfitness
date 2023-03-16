@@ -8,7 +8,7 @@ const SobreMi = () => {
 
       <Container>
         <Row style={{alignItems: 'flex-end'}}>
-          <Col>
+          <Col sm={12} md={12} xl={6}>
           <Fade direction='Down' delay={100} triggerOnce={true}>
             <h2>Sobre mí</h2>
             <div className="div-azul" />
@@ -26,7 +26,7 @@ const SobreMi = () => {
             </p>
           </Fade>
           </Col>
-          <Col>
+          <Col sm={12} md={12} xl={6}>
           <Fade direction='Down' delay={500} triggerOnce={true}>
             <p>
               Estudié para ser profesor de educación física, personal trainer,

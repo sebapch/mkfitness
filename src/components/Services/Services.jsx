@@ -8,7 +8,7 @@ const Services = () => {
       <Container>
         <Row>
           <h1 style={{textAlign: 'center', fontWeight: 'bold', margin: '2rem 0'}}>Asesorias </h1>
-          <Col>
+          <Col sm={12} md={12} xl={4}>
             <div className="card-border">
               <h1 className='title-card'>Básica</h1>
 
@@ -27,7 +27,7 @@ const Services = () => {
               </ul>
             </div>
           </Col>
-          <Col>
+          <Col sm={12} md={12} xl={4}>
             <div className="card-border">
               <h1 className='title-card'>Premium</h1>
 
@@ -45,7 +45,7 @@ const Services = () => {
               </ul>
             </div>
           </Col>
-          <Col>
+          <Col sm={12} md={12} xl={4}>
             <div className="card-border">
               <h1 className='title-card'>Personalizada</h1>
 
