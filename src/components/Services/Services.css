@@ -5,6 +5,14 @@
     flex-direction: column;
     align-items: center;
     min-height: 50vh;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     max-height: 50vh;
+}
+
+.title-card{
+    margin:2rem 0;
+}
+
+.li-card{
+    margin: 0.5rem;
 }

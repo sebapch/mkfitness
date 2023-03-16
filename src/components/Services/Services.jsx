@@ -7,47 +7,69 @@ const Services = () => {
     <div>
       <Container>
         <Row>
-          <h1>Asesorias </h1>
+          <h1 style={{textAlign: 'center', fontWeight: 'bold', margin: '2rem 0'}}>Asesorias </h1>
           <Col>
             <div className="card-border">
-              <h1>Básica</h1>
-              
-              <p>
-                ⚡️Rutina de entrenamiento (incluye una correcta periodización,
-                ajuste del volumen de entrenamiento, indicadores de intensidad
-                (RIR)). ⚡️Resolución a dudas por whatsapp (incluye chequeos
-                constantes de técnica de ejercicios, monitoreo del estado físico
-                y ajustes/modificaciones al plan). *No incluye apartado
-                nutricional. *Si incluye App móvil
-              </p>
+              <h1 className='title-card'>Básica</h1>
+
+              <ul>
+                <li className='li-card'>
+                  Rutina de entrenamiento (incluye una correcta periodización,
+                  ajuste del volumen de entrenamiento, indicadores de intensidad
+                  (RIR))
+                </li>
+                <li className='li-card'>
+                  Resolución a dudas por whatsapp (incluye chequeos constantes
+                  de técnica de ejercicios, monitoreo del estado físico y
+                  ajustes/modificaciones al plan)
+                </li>
+                <li className='li-card'>App móvil</li>
+              </ul>
             </div>
           </Col>
           <Col>
             <div className="card-border">
-              <h1>Premium</h1>
-          
-              <p>
-                🦍Rutina de entrenamiento (incluye una correcta periodización,
-                ajuste del volumen de entrenamiento, indicadores de intensidad
-                (RIR)) y nutrición personalizada en una App para llevar tu
-                planificación donde sea. 🦍Videollamada para responder el
-                cuestionario inicial y empezar a diseñar el plan de alimentación
-                y la rutina de entrenamiento personalizada 🦍Plan de
-                alimentación con una guía de 5 días 100% personalizado teniendo
-                en cuenta las calorías, macronutrientes y preferencias de
-                comidas. Los ajustes al plan se hacen siempre en base a tus
-                objetivos y todo en una APP móvil para Android e IOS.*NO incluye
-                dietas cetógenicas, paleo ni ninguna de esta índole 🦍Resolución
-                a dudas y chequeos constantes de técnica de ejercicios junto con
-                1 videollamada mensual.
-              </p>
+              <h1 className='title-card'>Premium</h1>
+
+              <ul>
+                <li className='li-card'>
+                  Rutina de entrenamiento (con periodización, volumen y RIR)
+                </li>
+                <li className='li-card'>Nutrición personalizada en App móvil</li>
+                <li className='li-card'>Videollamada inicial para diseño de plan</li>
+                <li className='li-card'>Plan de alimentación 100% personalizado en App móvil</li>
+                <li className='li-card'>
+                  Resolución de dudas y chequeos constantes de técnica de
+                  ejercicios
+                </li>
+              </ul>
             </div>
           </Col>
           <Col>
             <div className="card-border">
-              <h1>Personalizada</h1>
-              <label className="subtitle">intro al dato</label>
-              <p>datos datos datos datos</p>
+              <h1 className='title-card'>Personalizada</h1>
+
+              <ul>
+                <li className='li-card'>
+                  Rutina de entrenamiento completamente personalizada, basada en
+                  tus objetivos y necesidades individuales
+                </li>
+                <li className='li-card'>
+                  Plan de alimentación 100% personalizado, teniendo en cuenta
+                  tus preferencias, restricciones y objetivos
+                </li>
+                <li className='li-card'>
+                  Seguimiento constante y ajustes en base a tu progreso y
+                  feedback
+                </li>
+                <li className='li-card'>
+                  Videollamadas regulares para resolver dudas y hacer
+                  seguimiento de tu progreso
+                </li>
+                <li className='li-card'>
+                  Acceso a una App móvil para llevar tu planificación donde sea
+                </li>
+              </ul>
             </div>
           </Col>
         </Row>

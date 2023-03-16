@@ -1,19 +1,25 @@
 import React from "react";
 import { Container, Col, Row, Stack } from "react-bootstrap";
-import './SmallHero.css'
+import "./SmallHero.css";
+import { Fade } from "react-awesome-reveal";
 
 const SmallHero = () => {
   return (
-    <div style={{ backgroundColor: "#101635" }}>
+    <div style={{ backgroundColor: "#101635", padding: '3rem 0' }}>
       <Container>
-        <Stack style={{textAlign: 'center', alignItems: 'center'}}>
+
+        <Stack style={{ textAlign: "center", alignItems: "center" }}>
+      <Fade direction='Down' delay={600} triggerOnce={true}>
           <label className="label-smallHero">
             Lo que aprendí en este proceso es lo que quiero enseñarte a vos,
-            para que entrenar conmigo no sea solo un entrenamiento 
-            sino una herramienta para toda la vida que
-            cambiará tu cuerpo y tu mente para siempre.
+            para que entrenar conmigo no sea solo un entrenamiento sino una
+            herramienta para toda la vida que cambiará tu cuerpo y tu mente para
+            siempre.
           </label>
-          <button className="btn-smallHero">LLAMADO A ACCION</button>
+        </Fade>
+        <Fade direction='Down' delay={800} duration={3000} triggerOnce={true}>
+            <button className="button-51">Contactame</button>
+         </Fade>
         </Stack>
       </Container>
     </div>
