@@ -15,15 +15,15 @@ import Contacto from './components/Contacto/Contacto';
 function App() {
   return (
     <>
-    <div style={{backgroundColor: '#1E1E27', color: 'white'}}>
+    <div style={{backgroundColor: 'black', color: 'white'}}>
       <NavBar />
       <Main />
-      <Testimonios />
       <SobreMi />
       <BodyLeft />
+      <SmallHero />
+      <Testimonios />
       <BodyRight />
       <Services />
-      <SmallHero />
       <Contacto />
       </div>
     </>

@@ -1,24 +1,31 @@
 import React from 'react'
 import  {Container, Col, Row, Button} from 'react-bootstrap'
+import './Main.css'
+import Fade from 'react-reveal/Fade';
 
 const Main = () => {
   return (
-    <div style={{backgroundColor: '#1E1E27'}}>
+    <div style={{backgroundColor: 'black'}}>
 
    
     <Container style={{paddingTop: '3rem', paddingBottom: '3rem'}}>
         <Row>
             <Col style={{display: 'flex',alignItems: 'center'}}>
+            <Fade bottom>
+          
                 <div>
                     <label style={{color: 'white', marginBottom: '3rem', fontSize: '30px'}}>
-                    Soy personal trainer certificado, preparador físico y quiero ayudarte a tener el conocimiento necesario para que veas resultados por siempre.
+                    "Obtén la mejor versión de ti mismo con nuestro entrenamiento personalizado"
+                    <br/>
                       💪🏼
                     </label>
                     <div style={{display: 'flex',justifyContent: 'center'}}>
                         
-                    <Button variant="outline-primary"> Contactanos </Button>
+                    <button className="button-51">Contactame</button>
+                    
                     </div>
                 </div>
+        </Fade>
             </Col>
             <Col>
                 <div style={{display: 'flex', justifyContent: 'center'}}>

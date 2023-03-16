@@ -7,7 +7,7 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
       <Container>
         <Navbar.Brand href="#home" >
           <img src={Logo} alt='logo' style={{maxHeight: '8vh'}}/>

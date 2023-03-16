@@ -1,6 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Tilt+Prism&display=swap');
+
+
+
 .App {
   text-align: center;
   background-color: #1E1E27;
+  font-family: 'Francois One', sans-serif !important;
+/*   font-family: 'Tilt Prism', cursive; */
+
 
 }
 
@@ -16,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

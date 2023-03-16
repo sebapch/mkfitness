@@ -6,7 +6,7 @@ import '../BodyInfo.css';
 
 const BodyRight = () => {
   return (
-    <Container>
+    <Container style={{marginBottom: '3rem'}}>
             <Row>
                 <Col className='bodyText-centered'>
                 <BodyText />
