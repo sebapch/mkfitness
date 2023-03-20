@@ -12,11 +12,15 @@ const Services = () => {
             style={{
               textAlign: "center",
               fontWeight: "bold",
-              margin: "2rem 0",
+              margin: "1rem 0",
             }}
           >
             Asesorias{" "}
           </h1>
+          <div style={{display: 'flex', justifyContent: 'center'}}>
+          <div className="div-azul" />
+
+        </div>
           <Col sm={12} md={12} xl={6} style={{ marginBottom: "1rem" }}>
               <div className="card-border">
             <Fade direction="Down" delay={100} triggerOnce={true}>

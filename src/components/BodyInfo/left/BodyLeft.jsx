@@ -11,7 +11,7 @@ const bodyLeft = () => {
       <div style={{ margin: "7rem 0" }}>
         <Container style={{ display: "flex", alignItems: "center" }}>
           <Row>
-            <Col style={{ textAlign: "center" }} sm={12} md={12} lg={6}>
+            <Col style={{ textAlign: "center" }} sm={12} md={12} lg={6} >
               <Fade
                 direction="Down"
                 delay={600}

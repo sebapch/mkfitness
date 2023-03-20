@@ -10,7 +10,10 @@ const Testimonios = () => {
   return (
     <Container className="py-5">
       <h2 className="text-center mb-3">Testimonios</h2>
-      <h4 className="text-center mb-5">Lo que dicen nuestros clientes</h4>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+          <div className="div-azul" />
+
+        </div>
       <Row>
         <Col sm={12} md={12} xl={4}>
           <Card className="mx-auto card-estilada">
