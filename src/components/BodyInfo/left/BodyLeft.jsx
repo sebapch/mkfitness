@@ -11,7 +11,7 @@ const bodyLeft = () => {
       <div style={{ margin: "7rem 0" }}>
         <Container style={{ display: "flex", alignItems: "center" }}>
           <Row>
-            <Col style={{ textAlign: "center" }}>
+            <Col style={{ textAlign: "center" }} sm={12} md={12} lg={6}>
               <Fade
                 direction="Down"
                 delay={600}
@@ -21,7 +21,7 @@ const bodyLeft = () => {
                 <ImageBody foto={1}/>
               </Fade>
             </Col>
-            <Col className="bodyText-centered">
+            <Col className="bodyText-centered" sm={12} md={12} lg={6}>
               <Fade direction="Down" delay={400} triggerOnce={true}>
                 <BodyText titulo="¿Cómo cambió mi vida?" texto="Descubrí que el cambio comienza en ti. Cuando decides tomar acción y trabajar por tus metas, todo lo demás comienza a fluir en tu vida. No hay límites para lo que puedes lograr, y cada pequeño paso te acerca más a la mejor versión de ti mismo/a. ¡Permítete ser el cambio que deseas ver en tu vida y comienza hoy mismo!" />
               </Fade>

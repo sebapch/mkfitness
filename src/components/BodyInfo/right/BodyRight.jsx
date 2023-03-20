@@ -10,7 +10,7 @@ const BodyRight = () => {
     <div style={{ margin: "7rem 0" }}>
       <Container style={{ display: "flex", alignItems: "center" }}>
         <Row>
-          <Col className="bodyText-centered">
+          <Col className="bodyText-centered" sm={12} md={12} lg={6}>
             <Fade
               direction="Down"
               delay={600}
@@ -23,7 +23,7 @@ const BodyRight = () => {
               />
             </Fade>
           </Col>
-          <Col style={{ textAlign: "center" }}> 
+          <Col style={{ textAlign: "center" }} sm={12} md={12} lg={6}> 
             <Fade
               direction="Down"
               delay={600}

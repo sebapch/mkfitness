@@ -12,8 +12,8 @@ const SobreMi = () => {
               <h2>Sobre mí</h2>
               <div className="div-azul" />
             </Fade>
-            <Fade direction="Down" delay={300} triggerOnce={true}>
               <p>
+            <Fade direction="Down" delay={300} triggerOnce={true}>
                 Entonces me prepare y concrete mis estudios en: Personal trainer
                 matriculado ( URBAN), Nutrición deportiva (URBAN) y Experto en
                 biomecánica ( ENFAF). Actualmente estoy haciendo un máster
@@ -22,12 +22,12 @@ const SobreMi = () => {
                 profundicé en el conocimiento y comprendí mis errores. Y en
                 menos de un año, logré transformar mi cuerpo, pasando de estar
                 como en la primera foto a estar como en la segunda.
-              </p>
             </Fade>
+              </p>
           </Col>
           <Col sm={12} md={12} xl={6}>
-            <Fade direction="Down" delay={500} triggerOnce={true}>
               <p>
+            <Fade direction="Down" delay={500} triggerOnce={true}>
                 Desde chico que estoy metido en el deporte gracias a mi padre,
                 que siempre fue un deportista. Por eso, el entrenamiento, la
                 buena comida y los hábitos saludables son parte de mi vida desde
@@ -35,8 +35,8 @@ const SobreMi = () => {
                 maratones, gym y crossfit, nunca estaba conforme con mi físico y
                 sabía que la alimentación era mi punto débil. Pero ahí fue
                 cuando decidí tomármelo en serio y ponerme a estudiar.
-              </p>
             </Fade>
+              </p>
           </Col>
         </Row>
       </Container>
