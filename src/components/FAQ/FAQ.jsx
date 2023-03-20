@@ -5,6 +5,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Fade } from "react-awesome-reveal";
 
 const FAQ = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -16,6 +17,8 @@ const FAQ = () => {
   return (
     <div>
       <Container>
+      <Fade direction='Down' delay={100} triggerOnce={true}>
+
         <Accordion
           expanded={expanded === "panel1"}
           onChange={handleChange("panel1")}
@@ -107,6 +110,7 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
+        </Fade>
       </Container>
     </div>
   );
