@@ -13,6 +13,7 @@ import SmallHero from "./components/SmallHero/SmallHero";
 import Contacto from "./components/Contacto/Contacto";
 import Footer from "./components/Footer/Footer";
 import FAQ from "./components/FAQ/FAQ";
+import CarouselPhoto from "./components/Carousel/CarouselPhoto";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <BodyLeft />
         <SmallHero />
         <Testimonios />
+        <CarouselPhoto />
         <BodyRight />
         <FAQ />
         <Services />

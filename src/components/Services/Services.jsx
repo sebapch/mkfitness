@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div>
       <Container>
-        <Row>
+        <Row >
           <h1
             style={{
               textAlign: "center",
@@ -16,7 +16,7 @@ const Services = () => {
           >
             Asesorias{" "}
           </h1>
-          <Col sm={12} md={12} xl={6}>
+          <Col sm={12} md={12} xl={6} style={{marginBottom: '1rem'}}>
             <div className="card-border">
               <h1 className="title-card">Básica ⚡️</h1>
 
@@ -35,7 +35,7 @@ const Services = () => {
               </ul>
             </div>
           </Col>
-          <Col sm={12} md={12} xl={6}>
+          <Col sm={12} md={12} xl={6} style={{marginBottom: '1rem'}}>
             <div className="card-border">
               <h1 className="title-card">Premium 🦍</h1>
 
@@ -66,7 +66,7 @@ const Services = () => {
               </ul>
             </div>
           </Col>
-          <Col sm={12} md={12} xl={6}>
+          <Col sm={12} md={12} xl={6} style={{marginBottom: '1rem'}}>
             <div className="card-border">
               <h1 className="title-card">Nutricion 🍏</h1>
 
@@ -88,7 +88,7 @@ const Services = () => {
               </ul>
             </div>
           </Col>
-          <Col sm={12} md={12} xl={6}>
+          <Col sm={12} md={12} xl={6} style={{marginBottom: '1rem'}}>
             <div className="card-border">
               <h1 className="title-card">Preparación deportiva en: 🤸🏻‍♀️</h1>
 

@@ -30,7 +30,7 @@ const BodyRight = () => {
               duration={3000}
               triggerOnce={true}
             >
-              <ImageBody />
+              <ImageBody foto={2}/>
             </Fade>
           </Col>
         </Row>

@@ -18,7 +18,7 @@ const bodyLeft = () => {
                 duration={3000}
                 triggerOnce={true}
               >
-                <ImageBody />
+                <ImageBody foto={1}/>
               </Fade>
             </Col>
             <Col className="bodyText-centered">

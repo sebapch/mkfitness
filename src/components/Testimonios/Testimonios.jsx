@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Card, Carousel } from "react-bootstrap";
 import "./Testimonios.css";
+import Lujan from "../../assets/lujan.jpeg";
+import Fabb from "../../assets/fabb.jpeg";
+import Zabala from "../../assets/zabala.jpeg";
 
 const Testimonios = () => {
   return (
@@ -10,8 +13,7 @@ const Testimonios = () => {
       <Row>
         <Col sm={12} md={12} xl={4}>
           <Card className="mx-auto card-estilada">
-            <Card.Body>
-              <Card.Title>Juan Pérez</Card.Title>
+            <Card.Body className='card-body-responsive'>
               <Card.Text style={{ textAlign: "center" }}>
                 Siempre busqué la manera de estar bien físicamente, pero se me
                 hacía muy difícil por que estaba errado en muchos aspectos.
@@ -21,41 +23,69 @@ const Testimonios = () => {
                 ejercicio. Definitivamente el cambio que necesitaba y mucho
                 mejor de lo que esperaba, más que un personal trainer, un
                 hermano.
-                <br />
-                Santi Lujan.
               </Card.Text>
+              <Row style={{ display: "flex", alignItems: "center" }}>
+                <Col style={{textAlign: "center"}}>
+                  <img
+                    src={Lujan}
+                    alt=""
+                    style={{ width: "50%", borderRadius: "50%" }}
+                  />
+                </Col>
+                <Col>
+                  <Card.Text>Santi Lujan.</Card.Text>
+                </Col>
+              </Row>
             </Card.Body>
           </Card>
         </Col>
         <Col sm={12} md={12} xl={4}>
           <Card className="mx-auto card-estilada">
-            <Card.Body>
-              <Card.Title style={{ textAlign: "center" }}>
-                María Rodríguez
-              </Card.Title>
-              <Card.Text>
+            <Card.Body className='card-body-responsive'>
+            
+              <Card.Text style={{ textAlign: "center" }}>
                 Con juani pudimos lograr el primer objetivo de este camino, que
                 fue encarar un volumen, de pesar 96 kg pase a pesar 112 kg en 10
                 meses ahora vamos por la segunda etapa y este nuevo reto que va
                 ser definir, excelente profesional!
-                <br />
-                Santi Zabala
               </Card.Text>
+              <Row style={{ display: "flex", alignItems: "center" }}>
+                <Col style={{textAlign: "center"}}>
+                  <img
+                    src={Zabala}
+                    alt=""
+                    style={{ width: "50%", borderRadius: "50%" }}
+                  />
+                </Col>
+                <Col>
+                  <Card.Text>Santi Zabala.</Card.Text>
+                </Col>
+              </Row>
             </Card.Body>
           </Card>
         </Col>
         <Col sm={12} md={12} xl={4}>
           <Card className="mx-auto card-estilada">
-            <Card.Body>
-              <Card.Title>Carlos Gómez</Card.Title>
+            <Card.Body className='card-body-responsive'>
+              
               <Card.Text style={{ textAlign: "center" }}>
                 "No puedo creer lo mucho que he mejorado en tan poco tiempo. Con
                 el entrenamiento de juani y su método Mkfitness, me siento más
                 fuerte y con más energía que nunca. ¡Gracias por ayudarme a
                 alcanzar mis objetivos!
-                <br />
-                Caro Fabbroni
               </Card.Text>
+              <Row style={{ display: "flex", alignItems: "center" }}>
+                <Col style={{textAlign: "center"}}>
+                  <img
+                    src={Fabb}
+                    alt=""
+                    style={{ width: "50%", borderRadius: "50%" }}
+                  />
+                </Col>
+                <Col>
+                  <Card.Text>Caro Fabbroni</Card.Text>
+                </Col>
+              </Row>
             </Card.Body>
           </Card>
         </Col>

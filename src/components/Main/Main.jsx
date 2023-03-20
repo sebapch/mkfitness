@@ -2,6 +2,7 @@ import React from 'react'
 import  {Container, Col, Row, Button} from 'react-bootstrap'
 import './Main.css'
 import { Fade } from "react-awesome-reveal";
+import Foto1 from '../../assets/foto1.png'
 
 
 const Main = () => {
@@ -31,7 +32,7 @@ const Main = () => {
             <Col>
             <Fade direction='Down' delay={500} triggerOnce={true}>
                 <div style={{display: 'flex', justifyContent: 'center'}}>
-                    <img src='https://mkonlinefitness.files.wordpress.com/2022/07/img_8827.jpg?w=768' alt='' style={{maxHeight:'50vh'}}/>
+                    <img src={Foto1} alt='' style={{maxHeight:'50vh'}}/>
                 </div>
             </Fade>
             </Col>

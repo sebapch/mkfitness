@@ -2,6 +2,12 @@
     background-color: #101635;
     color: white;
     border: 3px solid #0046EF;
-    height: 30vh;
     margin-bottom: 1rem;
+    height: 45vh;
+}
+
+.card-body-responsive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }

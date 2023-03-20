@@ -19,18 +19,20 @@ const FAQ = () => {
         <Accordion
           expanded={expanded === "panel1"}
           onChange={handleChange("panel1")}
+          style={{backgroundColor: '#101655'}}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon  style={{color: 'white'}}/>}
             aria-controls="panel1bh-content"
             id="panel1bh-header"
+            style={{color: 'white'}}
           >
-            <Typography sx={{ width: "60%", flexShrink: 0 }}>
+            <Typography sx={{ width: "60%", flexShrink: 0, color: '#FFF' }}>
               ¿CUANTO TIEMPO TARDA EN LLEGARME LA PLANIFICACIÓN?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
+          <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
+            <Typography sx={{color: 'white'}}>
               Una vez que se reciba el pago y la planilla completada, se le
               mandará la rutina entre 24-48 hs, para comenzar con la rutina y
               las dudas ya resueltas.
@@ -40,18 +42,19 @@ const FAQ = () => {
         <Accordion
           expanded={expanded === "panel2"}
           onChange={handleChange("panel2")}
+          style={{backgroundColor: '#101655'}}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color: 'white'}} />}
             aria-controls="panel2bh-content"
             id="panel2bh-header"
           >
-            <Typography sx={{ width: "60%", flexShrink: 0 }}>
+            <Typography sx={{ width: "60%", flexShrink: 0, color: '#FFF'  }}>
               ¿CADA CUANTO SE CAMBIA LA RUTINA Y/O DIETA?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
+          <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
+            <Typography sx={{color: 'white'}}>
               Depende exclusivamente de vos, se te haran chequeos
               mensuales/semanales/diarios (depende del pack que elijas) para ver
               como estas respondiendo a la rutina, si no estas respondiendo bien
@@ -64,19 +67,20 @@ const FAQ = () => {
         <Accordion
           expanded={expanded === "panel3"}
           onChange={handleChange("panel3")}
+          style={{backgroundColor: '#101655'}}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color: 'white'}} />}
             aria-controls="panel3bh-content"
             id="panel3bh-header"
           >
-            <Typography sx={{ width: "60%", flexShrink: 0 }}>
+            <Typography sx={{ width: "60%", flexShrink: 0, color: '#FFF'  }}>
               ¿COMO ME CONTACTO PARA COMENZAR?
             </Typography>
            
           </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
+          <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
+            <Typography sx={{color: 'white'}}>
             TOCA EL BOTON «QUIERO COMENZAR YA» PARA COMENZAR ! o el de wp o ig
               el q se ponga (*)
             </Typography>
@@ -85,18 +89,19 @@ const FAQ = () => {
         <Accordion
           expanded={expanded === "panel4"}
           onChange={handleChange("panel4")}
+          style={{backgroundColor: '#101655'}}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color: 'white'}} />}
             aria-controls="panel4bh-content"
             id="panel4bh-header"
           >
-            <Typography sx={{ width: "60%", flexShrink: 0 }}>
+            <Typography sx={{ width: "60%", flexShrink: 0, color: '#FFF'  }}>
               ¿AL MOMENTO DE RENOVAR EL PLAN, CUANDO TENGO QUE PAGAR?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
+          <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
+            <Typography sx={{color: 'white'}}>
               al mes de inicio de su planificacion, es decir si comenzo un 4 de
               abril el siguiente pago es el 4 de mayo
             </Typography>
