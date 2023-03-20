@@ -20,7 +20,7 @@ const Main = () => {
                     <br/>
                       💪🏼
                     </label>
-                    <div style={{display: 'flex',justifyContent: 'center'}}>
+                    <div style={{display: 'flex',justifyContent: 'center', marginBottom: '2rem'}}>
                         
                     <button className="button-51">Contactame</button>
                     
