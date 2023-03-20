@@ -7,68 +7,101 @@ const Services = () => {
     <div>
       <Container>
         <Row>
-          <h1 style={{textAlign: 'center', fontWeight: 'bold', margin: '2rem 0'}}>Asesorias </h1>
-          <Col sm={12} md={12} xl={4}>
+          <h1
+            style={{
+              textAlign: "center",
+              fontWeight: "bold",
+              margin: "2rem 0",
+            }}
+          >
+            Asesorias{" "}
+          </h1>
+          <Col sm={12} md={12} xl={6}>
             <div className="card-border">
-              <h1 className='title-card'>Básica</h1>
+              <h1 className="title-card">Básica ⚡️</h1>
 
               <ul>
-                <li className='li-card'>
-                  Rutina de entrenamiento (incluye una correcta periodización,
+                <li className="li-card">
+                  ⚡️Rutina de entrenamiento (incluye una correcta
+                  periodización, ajuste del volumen de entrenamiento,
+                  indicadores de intensidad (RIR)).
+                </li>
+                <li className="li-card">
+                  ⚡️Resolución a dudas por whatsapp (incluye chequeos
+                  constantes de técnica de ejercicios, monitoreo del estado
+                  físico y ajustes/modificaciones al plan). *No incluye apartado
+                  nutricional. *Si incluye App móvil
+                </li>
+              </ul>
+            </div>
+          </Col>
+          <Col sm={12} md={12} xl={6}>
+            <div className="card-border">
+              <h1 className="title-card">Premium 🦍</h1>
+
+              <ul>
+                <li className="li-card">
+                  🦍Rutina de entrenamiento (incluye una correcta periodización,
                   ajuste del volumen de entrenamiento, indicadores de intensidad
-                  (RIR))
+                  (RIR)) y nutrición personalizada en una App para llevar tu
+                  planificación donde sea.
                 </li>
-                <li className='li-card'>
-                  Resolución a dudas por whatsapp (incluye chequeos constantes
-                  de técnica de ejercicios, monitoreo del estado físico y
-                  ajustes/modificaciones al plan)
+                <li className="li-card">
+                  🦍Videollamada para responder el cuestionario inicial y
+                  empezar a diseñar el plan de alimentación y la rutina de
+                  entrenamiento personalizada
                 </li>
-                <li className='li-card'>App móvil</li>
-              </ul>
-            </div>
-          </Col>
-          <Col sm={12} md={12} xl={4}>
-            <div className="card-border">
-              <h1 className='title-card'>Premium</h1>
-
-              <ul>
-                <li className='li-card'>
-                  Rutina de entrenamiento (con periodización, volumen y RIR)
+                <li className="li-card">
+                  🦍Plan de alimentación con una guía de 5 días 100%
+                  personalizado teniendo en cuenta las calorías, macronutrientes
+                  y preferencias de comidas. Los ajustes al plan se hacen
+                  siempre en base a tus objetivos y todo en una APP móvil para
+                  Android e IOS.*NO incluye dietas cetógenicas, paleo ni ninguna
+                  de esta índole
                 </li>
-                <li className='li-card'>Nutrición personalizada en App móvil</li>
-                <li className='li-card'>Videollamada inicial para diseño de plan</li>
-                <li className='li-card'>Plan de alimentación 100% personalizado en App móvil</li>
-                <li className='li-card'>
-                  Resolución de dudas y chequeos constantes de técnica de
-                  ejercicios
+                <li className="li-card">
+                  🦍Resolución a dudas y chequeos constantes de técnica de
+                  ejercicios junto con 1 videollamada mensual.
                 </li>
               </ul>
             </div>
           </Col>
-          <Col sm={12} md={12} xl={4}>
+          <Col sm={12} md={12} xl={6}>
             <div className="card-border">
-              <h1 className='title-card'>Personalizada</h1>
+              <h1 className="title-card">Nutricion 🍏</h1>
 
               <ul>
-                <li className='li-card'>
-                  Rutina de entrenamiento completamente personalizada, basada en
-                  tus objetivos y necesidades individuales
+                <li className="li-card">
+                🍏 Plan de alimentación con una guía de 5 días 100% personalizado
+                  teniendo en cuenta las calorías, macronutrientes y
+                  preferencias de comidas. Los ajustes al plan se hacen siempre
+                  en base a tus objetivos.
                 </li>
-                <li className='li-card'>
-                  Plan de alimentación 100% personalizado, teniendo en cuenta
-                  tus preferencias, restricciones y objetivos
+                <li className="li-card"> 🍏Soporte por wsp</li>
+                <li className="li-card">
+                🍏guias exclusivas para aprender como comer, manejar calorias y
+                  macronutrientes.  NO INCLUYE DIETAS CETO, KETO, PALEO ENTRE
+                  OTRAS. NO INCLUTE DIETAS PARA CELIACOS NI DIABETICOS.
                 </li>
-                <li className='li-card'>
-                  Seguimiento constante y ajustes en base a tu progreso y
-                  feedback
+                
+               
+              </ul>
+            </div>
+          </Col>
+          <Col sm={12} md={12} xl={6}>
+            <div className="card-border">
+              <h1 className="title-card">Preparación deportiva en: 🤸🏻‍♀️</h1>
+
+              <ul>
+                <li className="li-card">
+                🤸🏻‍♀️ culturismo natural (entre 1 - 2 años dependiendo punto de partida)
                 </li>
-                <li className='li-card'>
-                  Videollamadas regulares para resolver dudas y hacer
-                  seguimiento de tu progreso
+                <li className="li-card"> 🤸🏻‍♀️fútbol (pretemporadas, acondicionamiento, mejora en fuerza/ rendimiento deportivo)</li>
+                <li className="li-card">
+                🤸🏻‍♀️condición física para examenes/policia etc. 
                 </li>
-                <li className='li-card'>
-                  Acceso a una App móvil para llevar tu planificación donde sea
-                </li>
+                
+               
               </ul>
             </div>
           </Col>

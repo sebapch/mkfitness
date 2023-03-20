@@ -12,6 +12,7 @@ import Services from "./components/Services/Services";
 import SmallHero from "./components/SmallHero/SmallHero";
 import Contacto from "./components/Contacto/Contacto";
 import Footer from "./components/Footer/Footer";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <SmallHero />
         <Testimonios />
         <BodyRight />
+        <FAQ />
         <Services />
         <Contacto />
         <Footer />

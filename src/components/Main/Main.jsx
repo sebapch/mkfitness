@@ -14,8 +14,8 @@ const Main = () => {
             <Col style={{display: 'flex',alignItems: 'center'}}>
             <Fade direction='Down' delay={100} triggerOnce={true}>
                 <div>
-                    <label style={{color: 'white', marginBottom: '3rem', fontSize: '30px'}}>
-                    "Obtén la mejor versión de ti mismo con nuestro entrenamiento personalizado"
+                    <label style={{color: 'white', marginBottom: '3rem', fontSize: '30px', textAlign: 'center'}}>
+                    Obtén la mejor versión de ti mismo física y mentalmente, unite a Mkfitness
                     <br/>
                       💪🏼
                     </label>
