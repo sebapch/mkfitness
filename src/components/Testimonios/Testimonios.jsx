@@ -15,7 +15,7 @@ const Testimonios = () => {
 
         </div>
       <Row>
-        <Col sm={12} md={12} xl={4}>
+        <Col sm={12} md={12} xl={4} style={{marginBottom: '1rem'}}>
           <Card className="mx-auto card-estilada">
             <Card.Body className='card-body-responsive'>
             <Fade direction='Down' delay={100} triggerOnce={true}>
@@ -52,7 +52,7 @@ const Testimonios = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={12} md={12} xl={4}>
+        <Col sm={12} md={12} xl={4} style={{marginBottom: '1rem'}}>
           <Card className="mx-auto card-estilada">
             <Card.Body className='card-body-responsive'>
             <Fade direction='Down' delay={100} triggerOnce={true}>
@@ -88,7 +88,7 @@ const Testimonios = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={12} md={12} xl={4}>
+        <Col sm={12} md={12} xl={4} style={{marginBottom: '1rem'}}>
           <Card className="mx-auto card-estilada">
             <Card.Body className='card-body-responsive'>
             <Fade direction='Down' delay={100} triggerOnce={true}>
