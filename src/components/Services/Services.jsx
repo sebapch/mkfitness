@@ -101,7 +101,7 @@ const Services = () => {
           <Col sm={12} md={12} xl={6} style={{ marginBottom: "1rem" }}>
             <div className="card-border">
               <Fade direction="Down" delay={1000} triggerOnce={true}>
-                <h1 className="title-card">Preparación deportiva en: 🤸🏻‍♀️</h1>
+                <h1 className="title-card">Preparación deportiva <br/> en: 🤸🏻‍♀️</h1>
 
                 <ul>
                   <li className="li-card">

@@ -78,13 +78,13 @@ const FAQ = () => {
             id="panel3bh-header"
           >
             <Typography sx={{ width: "60%", flexShrink: 0, color: '#FFF'  }}>
-              ¿COMO ME CONTACTO PARA COMENZAR?
+              ¿CÓMO ME CONTACTO PARA COMENZAR?
             </Typography>
            
           </AccordionSummary>
           <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
             <Typography sx={{color: 'white'}}>
-            TOCA EL BOTON DE CONTACTO Y COMUNICATE CONMIGO
+            Toca el botón de contacto y comunicate conmigo.
             </Typography>
           </AccordionDetails>
         </Accordion>
