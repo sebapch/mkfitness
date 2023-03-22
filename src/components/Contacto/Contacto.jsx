@@ -14,7 +14,7 @@ const Contacto = () => {
       </div>
       <Row>
         <Col>
-        <a  href="https://wa.me/93584121045"> 
+        <a  href="https://wa.me/5493584121045"> 
           <BsWhatsapp className='contacto-icons' />
          </a>
         </Col>
