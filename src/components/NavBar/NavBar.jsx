@@ -10,7 +10,7 @@ const NavBar = () => {
     <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
       <Container>
         <Navbar.Brand href="#home" >
-          <img src={Logo} alt='logo' style={{maxHeight: '14vh'}}/>
+          <img src={Logo} alt='logo' style={{maxHeight: '12vh'}}/>
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className='navbar-flex-end'>

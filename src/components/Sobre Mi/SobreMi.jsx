@@ -38,7 +38,7 @@ const SobreMi = () => {
                 (ENFAF). Todo esto me llevó a un nuevo nivel, a medida que
                 profundicé en el conocimiento y comprendí mis errores. Y en
                 menos de un año, logré transformar mi cuerpo, pasando de estar
-                como en la primera foto a estar como en la segunda.
+                como en la segunda foto a estar como en la primera.
             </Fade>
             
               </p>

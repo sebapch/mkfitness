@@ -17,7 +17,7 @@ const SmallHero = () => {
             siempre.
           </label>
         </Fade>
-        <Fade direction='Down' delay={800} duration={3000} triggerOnce={true}>
+        <Fade direction='Down' delay={800}  triggerOnce={true}>
         <a  href="https://wa.me/5493584121045"> 
             <button className="button-51">Contactame</button>
             </a>
