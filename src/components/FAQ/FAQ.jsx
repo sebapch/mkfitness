@@ -31,7 +31,7 @@ const FAQ = () => {
             style={{color: 'white'}}
           >
             <Typography sx={{ width: "60%", flexShrink: 0, color: '#FFF' }}>
-              ¿CUANTO TIEMPO TARDA EN LLEGARME LA PLANIFICACIÓN?
+              ¿CUÁNTO TIEMPO TARDA EN LLEGARME LA PLANIFICACIÓN?
             </Typography>
           </AccordionSummary>
           <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
@@ -53,7 +53,7 @@ const FAQ = () => {
             id="panel2bh-header"
           >
             <Typography sx={{ width: "60%", flexShrink: 0, color: '#FFF'  }}>
-              ¿CADA CUANTO SE CAMBIA LA RUTINA Y/O DIETA?
+              ¿CADA CUÁNTO SE CAMBIA LA RUTINA Y/O DIETA?
             </Typography>
           </AccordionSummary>
           <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
@@ -99,7 +99,7 @@ const FAQ = () => {
             id="panel4bh-header"
           >
             <Typography sx={{ width: "60%", flexShrink: 0, color: '#FFF'  }}>
-              ¿AL MOMENTO DE RENOVAR EL PLAN, CUANDO TENGO QUE PAGAR?
+              ¿AL MOMENTO DE RENOVAR EL PLAN, CUÁNDO TENGO QUE PAGAR?
             </Typography>
           </AccordionSummary>
           <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
