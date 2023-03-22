@@ -5,7 +5,7 @@ import FotoSobreMi from '../../assets/sobremi.jpeg'
 
 const SobreMi = () => {
   return (
-    <div className="bg-dark text-light" id='sobremi' style={{ padding: "6rem 0" }}>
+    <div className="bg-dark text-light" id='sobremi' style={{ padding: "4rem 1rem" }}>
 <div style={{display:'flex', flexDirection: 'column', alignItems:'center'}}>
       <Fade direction="Down" delay={100} triggerOnce={true}>
               <h2 id='sobremi' style={{textAlign: 'center'}}>Sobre mí</h2>
