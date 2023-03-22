@@ -9,7 +9,7 @@ const BodyText = (props) => {
     <Container >
       <h3>{props.titulo}</h3>
       <div className="div-azul" />
-      <p>
+      <p style={{textAlign: 'justify'}}>
         {props.texto}
       </p>
       

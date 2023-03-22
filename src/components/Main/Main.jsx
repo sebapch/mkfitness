@@ -21,9 +21,9 @@ const Main = () => {
                       💪🏼
                     </label>
                     <div style={{display: 'flex',justifyContent: 'center', marginBottom: '2rem'}}>
-                        
+                    <a  href="https://wa.me/5493584121045"> 
                     <button className="button-51">Contactame</button>
-                    
+                    </a>
                     </div>
                 </div>
                 </Fade>

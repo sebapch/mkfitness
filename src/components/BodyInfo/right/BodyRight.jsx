@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 
 const BodyRight = () => {
   return (
-    <div style={{ margin: "7rem 0" }}>
+    <div style={{ margin: "3rem 0" }}>
       <Container style={{ display: "flex", alignItems: "center" }}>
         <Row>
           <Col className="bodyText-centered" sm={12} md={12} lg={6}>

@@ -44,7 +44,7 @@ const SobreMi = () => {
               </p>
           </Col>
           <Col sm={12} md={12} xl={6} style={{textAlign: 'center'}}>
-              <img src={FotoSobreMi} alt='' width='75%'/>
+              <img src={FotoSobreMi} alt='' width='75%' style={{ border: "3px solid #0046EF"}}/>
           </Col>
         </Row>
       </Container>

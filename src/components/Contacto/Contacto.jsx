@@ -19,7 +19,7 @@ const Contacto = () => {
          </a>
         </Col>
         <Col>
-        <a  href="https://ig.me/m/NOMBREDELUSUARIO"> 
+        <a  href="https://ig.me/m/juanimarini.mk"> 
         
           <BsInstagram className='contacto-icons'/>
           </a>
