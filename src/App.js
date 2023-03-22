@@ -27,8 +27,8 @@ function App() {
         <Testimonios />
         <CarouselPhoto />
         <BodyRight />
-        <FAQ />
         <Services />
+        <FAQ />
         <Contacto />
         <Footer />
       </div>

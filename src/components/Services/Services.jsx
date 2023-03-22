@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Services = () => {
   return (
-    <div>
+    <div id='asesorias'>
       <Container>
         <Row>
           <h1
@@ -49,18 +49,18 @@ const Services = () => {
 
                 <ul>
                   <li className="li-card">
-                    🦍Rutina de entrenamiento (incluye una correcta
+                    🦍 Rutina de entrenamiento (incluye una correcta
                     periodización, ajuste del volumen de entrenamiento,
                     indicadores de intensidad (RIR)) y nutrición personalizada
                     en una App para llevar tu planificación donde sea.
                   </li>
                   <li className="li-card">
-                    🦍Videollamada para responder el cuestionario inicial y
+                    🦍 Videollamada para responder el cuestionario inicial y
                     empezar a diseñar el plan de alimentación y la rutina de
                     entrenamiento personalizada
                   </li>
                   <li className="li-card">
-                    🦍Plan de alimentación con una guía de 5 días 100%
+                    🦍 Plan de alimentación con una guía de 5 días 100%
                     personalizado teniendo en cuenta las calorías,
                     macronutrientes y preferencias de comidas. Los ajustes al
                     plan se hacen siempre en base a tus objetivos y todo en una
@@ -68,7 +68,7 @@ const Services = () => {
                     paleo ni ninguna de esta índole
                   </li>
                   <li className="li-card">
-                    🦍Resolución a dudas y chequeos constantes de técnica de
+                    🦍 Resolución a dudas y chequeos constantes de técnica de
                     ejercicios junto con 1 videollamada mensual.
                   </li>
                 </ul>
@@ -87,9 +87,9 @@ const Services = () => {
                     macronutrientes y preferencias de comidas. Los ajustes al
                     plan se hacen siempre en base a tus objetivos.
                   </li>
-                  <li className="li-card"> 🍏Soporte por wsp</li>
+                  <li className="li-card"> 🍏Soporte por whatsapp</li>
                   <li className="li-card">
-                    🍏guias exclusivas para aprender como comer, manejar
+                    🍏 Guias exclusivas para aprender como comer, manejar
                     calorias y macronutrientes. NO INCLUYE DIETAS CETO, KETO,
                     PALEO ENTRE OTRAS. NO INCLUTE DIETAS PARA CELIACOS NI
                     DIABETICOS.
@@ -105,16 +105,16 @@ const Services = () => {
 
                 <ul>
                   <li className="li-card">
-                    🤸🏻‍♀️ culturismo natural (entre 1 - 2 años dependiendo punto de
+                    🤸🏻‍♀️ Culturismo natural (entre 1 - 2 años dependiendo punto de
                     partida)
                   </li>
                   <li className="li-card">
                     {" "}
-                    🤸🏻‍♀️fútbol (pretemporadas, acondicionamiento, mejora en
+                    🤸🏻‍♀️ Fútbol (pretemporadas, acondicionamiento, mejora en
                     fuerza/ rendimiento deportivo)
                   </li>
                   <li className="li-card">
-                    🤸🏻‍♀️condición física para examenes/policia etc.
+                    🤸🏻‍♀️ Condición física para examenes/policia etc.
                   </li>
                 </ul>
               </Fade>

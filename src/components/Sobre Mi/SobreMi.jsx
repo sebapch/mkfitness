@@ -1,33 +1,25 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { Fade } from "react-awesome-reveal";
+import FotoSobreMi from '../../assets/sobremi.jpeg'
 
 const SobreMi = () => {
   return (
-    <div className="bg-dark text-light" style={{ padding: "6rem 0" }}>
-      <Container>
-        <Row style={{ alignItems: "flex-end" }}>
-          <Col sm={12} md={12} xl={6}>
-            <Fade direction="Down" delay={100} triggerOnce={true}>
-              <h2>Sobre mí</h2>
-              <div className="div-azul" />
+    <div className="bg-dark text-light" id='sobremi' style={{ padding: "6rem 0" }}>
+<div style={{display:'flex', flexDirection: 'column', alignItems:'center'}}>
+      <Fade direction="Down" delay={100} triggerOnce={true}>
+              <h2 id='sobremi' style={{textAlign: 'center'}}>Sobre mí</h2>
+              <div className="div-azul" style={{width: '10rem'}} />
             </Fade>
-              <p>
-            <Fade direction="Down" delay={300} triggerOnce={true}>
-                Entonces me prepare y concrete mis estudios en: Personal trainer
-                matriculado ( URBAN), Nutrición deportiva (URBAN) y Experto en
-                biomecánica ( ENFAF). Actualmente estoy haciendo un máster
-                universitario en hipertrofia y culturismo natural en España
-                (ENFAF). Todo esto me llevó a un nuevo nivel, a medida que
-                profundicé en el conocimiento y comprendí mis errores. Y en
-                menos de un año, logré transformar mi cuerpo, pasando de estar
-                como en la primera foto a estar como en la segunda.
-            </Fade>
-              </p>
-          </Col>
+
+</div>
+
+      <Container >
+        <Row style={{ alignItems: "center" }}>
           <Col sm={12} md={12} xl={6}>
-              <p>
-            <Fade direction="Down" delay={500} triggerOnce={true}>
+            
+              <p style={{textAlign: 'justify'}}>
+              <Fade direction="Down" delay={500} triggerOnce={true}>
                 Desde chico que estoy metido en el deporte gracias a mi padre,
                 que siempre fue un deportista. Por eso, el entrenamiento, la
                 buena comida y los hábitos saludables son parte de mi vida desde
@@ -37,6 +29,22 @@ const SobreMi = () => {
                 cuando decidí tomármelo en serio y ponerme a estudiar.
             </Fade>
               </p>
+              <p style={{textAlign: 'justify'}}>
+              <Fade direction="Down" delay={300} triggerOnce={true}>
+                Entonces me prepare y concrete mis estudios en: Personal trainer
+                matriculado ( URBAN), Nutrición deportiva (URBAN) y Experto en
+                biomecánica ( ENFAF). Actualmente estoy haciendo un máster
+                universitario en hipertrofia y culturismo natural en España
+                (ENFAF). Todo esto me llevó a un nuevo nivel, a medida que
+                profundicé en el conocimiento y comprendí mis errores. Y en
+                menos de un año, logré transformar mi cuerpo, pasando de estar
+                como en la primera foto a estar como en la segunda.
+            </Fade>
+            
+              </p>
+          </Col>
+          <Col sm={12} md={12} xl={6} style={{textAlign: 'center'}}>
+              <img src={FotoSobreMi} alt='' width='75%'/>
           </Col>
         </Row>
       </Container>

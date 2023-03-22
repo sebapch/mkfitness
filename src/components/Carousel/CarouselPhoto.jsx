@@ -14,7 +14,7 @@ const CarouselPhoto = () => {
   };
   return (
     <>
-      <Container>
+      <Container id='cambios'>
         <h1 style={{ textAlign: "center" }}>Cambios físicos</h1>
         <div style={{display: 'flex', justifyContent: 'center'}}>
         <div className="div-azul" />

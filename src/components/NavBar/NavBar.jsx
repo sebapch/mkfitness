@@ -17,14 +17,23 @@ const NavBar = () => {
          
           <Nav>
             <Nav.Link href="#deets">Inicio</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#sobremi">
               Sobre mi
             </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Servicios
+            <Nav.Link eventKey={2} href="#testimonios">
+              Testimonios
             </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Asesoria
+            <Nav.Link eventKey={2} href="#cambios">
+              Cambios
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="#asesorias">
+              Asesorias
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="#faq">
+              Preguntas Frecuentes
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="#contacto">
+              Contacto
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

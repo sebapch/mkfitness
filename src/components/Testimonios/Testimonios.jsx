@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Testimonios = () => {
   return (
-    <Container className="py-5">
+    <Container className="py-5" id='testimonios'>
       <h2 className="text-center mb-3">Testimonios</h2>
       <div style={{display: 'flex', justifyContent: 'center'}}>
           <div className="div-azul" />

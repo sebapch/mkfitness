@@ -15,7 +15,7 @@ const FAQ = () => {
   };
 
   return (
-    <div>
+    <div id='faq'>
       <Container>
       <Fade direction='Down' delay={100} triggerOnce={true}>
 
@@ -84,8 +84,7 @@ const FAQ = () => {
           </AccordionSummary>
           <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
             <Typography sx={{color: 'white'}}>
-            TOCA EL BOTON «QUIERO COMENZAR YA» PARA COMENZAR ! o el de wp o ig
-              el q se ponga (*)
+            TOCA EL BOTON DE CONTACTO Y COMUNICATE CONMIGO
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -105,7 +104,7 @@ const FAQ = () => {
           </AccordionSummary>
           <AccordionDetails style={{backgroundColor: '#3C4AA5'}}>
             <Typography sx={{color: 'white'}}>
-              al mes de inicio de su planificacion, es decir si comenzo un 4 de
+              Al mes de inicio de su planificacion, es decir si comenzo un 4 de
               abril el siguiente pago es el 4 de mayo
             </Typography>
           </AccordionDetails>
