@@ -4,6 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 import Cambio1 from "../../assets/cambio1.jpeg";
 import Cambio2 from "../../assets/cambio2.jpeg";
 import Cambio3 from "../../assets/cambio3.jpeg";
+import Cambio4 from '../../assets/carousel1.jpg';
+import Cambio5 from '../../assets/carousel2.jpg';
 import "./CarouselPhoto.css";
 
 const CarouselPhoto = () => {
@@ -50,6 +52,26 @@ const CarouselPhoto = () => {
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" src={Cambio3} alt="Third slide" />
+
+            {/*    <Carousel.Caption>
+            <h3>Third slide label</h3>
+            <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption> */}
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" src={Cambio4} alt="Third slide" />
+
+            {/*    <Carousel.Caption>
+            <h3>Third slide label</h3>
+            <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption> */}
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" src={Cambio5} alt="Third slide" />
 
             {/*    <Carousel.Caption>
             <h3>Third slide label</h3>

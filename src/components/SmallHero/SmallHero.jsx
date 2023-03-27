@@ -18,7 +18,7 @@ const SmallHero = () => {
           </label>
         </Fade>
         <Fade direction='Down' delay={800}  triggerOnce={true}>
-        <a  href="https://wa.me/393271094917"> 
+        <a  href="https://wa.me/393271094917?text=Hola!%20Quería%20saber%20sobre%20la%20asesoría%20(rellenar%20con%20el%20nombre%20de%20asesoría%20de%20interés),%20Muchas%20gracias!%20💪🏼"> 
             <button className="button-51">Contactame</button>
             </a>
          </Fade>
