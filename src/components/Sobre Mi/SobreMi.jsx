@@ -39,7 +39,7 @@ const SobreMi = () => {
                 cuando decidí tomármelo en serio y ponerme a estudiar.
               </Fade>
             </p>
-            <p style={{ textAlign: "justify" }}>
+            <p style={{ textAlign: "justify", textJustify: 'inter-word' }}>
               <Fade direction="Down" delay={300} triggerOnce={true}>
                 Entonces me prepare y concrete mis estudios en: Personal trainer
                 matriculado (URBAN), Nutrición deportiva (URBAN) y Experto en

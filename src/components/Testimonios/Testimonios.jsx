@@ -93,7 +93,7 @@ const Testimonios = () => {
             <Card.Body className='card-body-responsive'>
             <Fade direction='Down' delay={100} triggerOnce={true}>
               <Card.Text style={{ textAlign: "center" }}>
-                "No puedo creer lo mucho que he mejorado en tan poco tiempo. Con
+                No puedo creer lo mucho que he mejorado en tan poco tiempo. Con
                 el entrenamiento de juani y su método Mkfitness, me siento más
                 fuerte y con más energía que nunca. ¡Gracias por ayudarme a
                 alcanzar mis objetivos!
