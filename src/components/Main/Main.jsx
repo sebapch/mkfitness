@@ -21,7 +21,7 @@ const Main = () => {
                       💪🏼
                     </label>
                     <div style={{display: 'flex',justifyContent: 'center', marginBottom: '2rem'}}>
-                    <a  href="https://wa.me/393271094917?text=Hola!%20Quería%20saber%20sobre%20la%20asesoría%20(rellenar%20con%20el%20nombre%20de%20asesoría%20de%20interés),%20Muchas%20gracias!%20💪🏼"> 
+                    <a  href="https://wa.me/393271094917?text=Hola!%20Quería%20saber%20sobre%20la%20asesoría%20(rellenar%20con%20el%20nombre%20de%20asesoría%20de%20interés),%20Muchas%20gracias!%20"> 
                     <button className="button-51">Contactame</button>
                     </a>
                     </div>
